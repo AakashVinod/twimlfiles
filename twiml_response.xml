@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Say voice="alice">Accident Detected! Please respond immediately.</Say>
+    <Say voice="alice">Accident Detected. Please press 1 to confirm.</Say>
+    <Gather action="https://aakashvinod.github.io/twimlfiles/response_action.xml" numDigits="1" timeout="10" />
 </Response>
